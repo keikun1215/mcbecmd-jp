@@ -1,6 +1,5 @@
 .fix-01{
-    background:#36393F; /背景を白色に/
-    color:#DCDDDE;
+    background:#36393F; 
     box-shadow:0 2px 8px rgba(30,30,80,.3); /影。不要なら削除/
     left:0;
     line-height:1;
