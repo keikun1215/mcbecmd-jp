@@ -30,3 +30,13 @@ body {
 div{
 display: inline-block;
     }
+.acd-check{
+  display: none;
+}
+.acd-label{
+  background: #333;
+  color: #fff;
+  display: block;
+  margin-bottom: 1px;
+  padding: 10px;
+}
