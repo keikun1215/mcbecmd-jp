@@ -24,3 +24,6 @@ ul li, ol li {
 #futoji{
     font-weight:900;
 }
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    }
