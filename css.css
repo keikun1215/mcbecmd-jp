@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 .fix-01{
     background:#36393F; 
     box-shadow:0 2px 8px rgba(30,30,80,.3); /影。不要なら削除/
@@ -19,4 +20,7 @@ ul, ol {
 ul li, ol li {
   line-height: 1.5;
   padding: 0.5em 0;
+}
+#futoji{
+    font-weight:900;
 }
