@@ -21,7 +21,7 @@ ul li, ol li {
   line-height: 1.5;
   padding: 0.5em 0;
 }
-#futoji{
+.futoji{
     font-weight:900;
 }
 body {
