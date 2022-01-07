@@ -27,3 +27,6 @@ ul li, ol li {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     }
+div{
+display: inline-block;
+    }
