@@ -65,7 +65,7 @@ code {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #474747;
-    background: #bcff75;/*背景色*/
+    background-color: #bcff75;/*背景色*/
     border-left: double 7px #84ff00;/*左線*/
     border-right: double 7px #84ff00;/*右線*/
 }
