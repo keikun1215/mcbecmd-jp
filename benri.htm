@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> 便利1 </title>
+  </head>
+  <body>
+    <p>
+<label>ソースを見たいサイトのURL：<input type="text" id="nameText"></label>
+<input type="button" value="Check" id="checkButton">
+</p>
+    <script>
+function butotnClick(){
+var a=window.open('about:blank').document;a.write('<!DOCTYPE html><html><head><title>ViewSource:'+nameText.value+'</title><meta name="viewport" content="width=device-width,initial-scale=1" /></head><body></body></html>');a.close();var s = a.createElement("script");s.src = "https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sons-of-obsidian";a.body.appendChild(s);var b=a.body.appendChild(a.createElement('pre'));b.className='prettyprint lang-html linenums';b.style.overflow='auto';b.style.whiteSpace='pre-wrap';b.style.wordBreak='break-all';b.style.fontSize='11px';b.appendChild(a.createTextNode(document.getElementsByTagName('html')[0].outerHTML))
+}
+
+let nameText = document.getElementById('nameText');
+nameText.value = '名前';
+let msg = document.getElementById('msg');
+
+let checkButton = document.getElementById('checkButton');
+checkButton.addEventListener('click', butotnClick);
+</script>
