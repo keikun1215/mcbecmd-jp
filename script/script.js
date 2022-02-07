@@ -1,28 +1,27 @@
 var p = document.getElementById('text');
-var p = document.getElementById('text2');
+var p2= document.getElementById('text2');
+
 
 //タイピングする文字列をここで用意しておく
 var textLists = [
     'ハローワールド☭Hello World',
-    'This is my App',
-    'How are you?',
-    'Hello Hello',
-    'I love JavaScript!',
-    'Good morning',
-    'I am Japanese',
-    'Let it be'
+    'テスト☭test'
 ];
 var checkTexts = [];
+var hrgn = str.substr(0, str.indexOf('☭'));
 
 
 createText();
 
 function createText() {
     //文字列をランダムに取得する
-    var rnd = Math.floor(Math.random() * textLists.length);
+    var rnd0 = Math.floor(Math.random() * textLists.length);
+    var rnd = rnd0.substr(rnd0.indexOf('☭') + 1);
+
 
     //前の文字列を削除してから次の文字列を表示する
     p.textContent = '';
+    p2.textContent = hrgn;
     
     //文字列を1文字ずつに分解して、それぞれにspanタグを挿入する
     checkTexts = textLists[rnd].split('').map(function(value) {
