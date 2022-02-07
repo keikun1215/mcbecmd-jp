@@ -1,8 +1,9 @@
 var p = document.getElementById('text');
+var p = document.getElementById('text2');
 
 //タイピングする文字列をここで用意しておく
 var textLists = [
-    'Hello World',
+    'ハローワールド☭Hello World',
     'This is my App',
     'How are you?',
     'Hello Hello',
